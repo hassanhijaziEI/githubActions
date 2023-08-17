@@ -2,7 +2,7 @@ name: CD CI SFDX project to Development Integration Sandbox
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
    #::TODO:: turn back on after done testing
    # paths:
    #     - 'force-app/**'
