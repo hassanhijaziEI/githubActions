@@ -2,14 +2,14 @@ name: CD CI SFDX project to Development Integration Sandbox
 
 on:
   push:
-    branches: [ main ]
+    branches: [ user1 ]
    #::TODO:: turn back on after done testing
    # paths:
    #     - 'force-app/**'
   pull_request:
         types: [opened, synchronize, reopened]
         branches:
-            - main
+            - user1
         paths:
             - 'force-app/**'
 
